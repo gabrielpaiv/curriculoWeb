@@ -15,12 +15,23 @@ body {
   justify-content: center;
 }
 
-.container {
-  padding-left: 0.5rem;
-}
-
 section {
   padding-left: 1rem;
+  margin-bottom: 0.8rem;
+  display: grid;
+}
+
+p {
+  font: 400 1em/1.3rem 'Poppins', sans-serif;
+}
+
+h4,
+h5 {
+  font-family: 'Poppins', sans-serif;
+}
+
+h3 {
+  font: 200 1.9rem / 3rem 'Poppins', sans-serif;
 }
 
 #page {
@@ -30,42 +41,58 @@ section {
   display: flex;
 }
 
+#first section {
+  width: 18rem;
+  padding-left: 2rem;
+}
+
 #name {
-  background: #00416a;
-  width: 12rem;
-  height: 10rem;
-  padding-top: 2rem;
-  line-height: 1.5625rem;
+  background: #012e4b;
+  height: 12rem;
+  padding: 2rem 0;
   color: #f0f8ff;
 }
 
 #name .name {
-  font: 500 2.3rem /2.1rem 'Petrona', sans-serif;
+  font: 400 3rem /2.8rem 'Petrona', sans-serif;
 }
 
 #name .job {
-  padding-top: 0.4rem;
-  font: 500 1.3rem 'Poppins', sans-serif;
+  padding: 0.4rem 0;
+  font: 200 2rem/2rem 'Poppins', sans-serif;
 }
 
-#contato {
-  background: red;
-  width: 20rem;
+#contato a {
+  font: 400 1rem/2rem 'Poppins', sans-serif;
 }
-#about {
-  background: turquoise;
-  width: 20rem;
+
+#about p {
+  width: 15.5rem;
 }
-#skills {
-  background: blueviolet;
-  width: 20rem;
+
+#skills ul {
+  list-style: none;
+  font: 400 1rem 'Poppins', sans-serif;
 }
 #experiences {
-  background: moccasin;
+  margin: 2rem 0;
 }
+
+h4 {
+  font-size: 1.2rem;
+  font-weight: 600;
+  margin: 0.1rem 0;
+}
+h5 {
+  font-size: 1rem;
+  font-weight: 500;
+  margin-bottom: 0.6rem;
+}
+#experiences p {
+  margin-bottom: 0.6rem;
+  width: 26.25rem;
+}
+
 #formation {
-  background: gold;
-}
-#certificates {
-  background: gray;
+  margin: 2.5rem 0;
 }

@@ -11,45 +11,64 @@
       href="https://fonts.googleapis.com/css2?family=Petrona:wght@200;300;400;500;700&family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap"
       rel="stylesheet"
     />
+    <link rel="stylesheet" href="../fonts/style.css" />
 
     <!-- Styles -->
     <link rel="stylesheet" href="style.css" />
   </head>
   <body>
     <div id="page" class="container">
-      <div>
+      <div id="first">
         <section id="name">
           <h1 class="name">
             Gabriel<br />
             Alcântara<br />
             de Paiva
           </h1>
-          <h2 class="job">Desenvolvedor</h2>
+          <h2 class="job">Desenvolvedor<br />Fullstack</h2>
         </section>
 
         <section id="contato">
-          <a href="https://www.linkedin.com/in/apg9">
+          <h3>Contato</h3>
+
+          <a
+            class="icon-linkedin"
+            href="https://www.linkedin.com/in/apg9"
+            target="blank"
+          >
             www.linkedin.com/in/apg9
           </a>
-          <a href="https://github.com/gabrielpaiv"> github.com/gabrielpaiv </a>
-          <a href="mailto:gabriel.alcantara.ti@gmail.com">
-            gabriel.alcantara.ti@gmail.com
+          <a
+            class="icon-github"
+            href="https://github.com/gabrielpaiv"
+            target="blank"
+          >
+            github.com/gabrielpaiv
           </a>
-          <a href="https://api.whatsapp.com/send?phone=5561981976488">
+          <a class="icon-gmail" href="#"> gabriel.alcantara.ti@gmail.com </a>
+          <a
+            class="icon-whatsapp"
+            href="https://api.whatsapp.com/send?phone=5561981976488"
+            target="blank"
+          >
             (61) 98197-6488
           </a>
         </section>
 
         <section id="about">
+          <h3>Sobre</h3>
           <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Nam maxime
-            est itaque id repellendus iste, cum quos vel, expedita ducimus non
-            distinctio quia architecto, accusamus dolor numquam minima amet
-            velit!
+            Sou Desenvolvedor com 1 ano de experiência com PHP, PostgreeSQL,
+            HTML, CSS e Javascript.<br />
+            Estou na etapa final do Bacharelado em Engenharia da Computação
+            visando uma futura especialização em Ciência de Dados.<br />
+            Tenho foco nos resultados e busco soluções para possíveis problemas
+            com proatividade.
           </p>
         </section>
 
         <section id="skills">
+          <h3>Habilidades</h3>
           <ul>
             <li>PHP</li>
             <li>Javascript | Typescript</li>
@@ -58,16 +77,18 @@
             <li>PostgreeSQL</li>
             <li>HTML e CSS</li>
             <li>Docker | Composer</li>
-            <li>Node | React</li>
-            <li>POO | Java</li>
+            <li>Node</li>
+            <li>React</li>
+            <li>POO</li>
+            <li>Java</li>
           </ul>
         </section>
       </div>
-      <div>
+      <div id="second">
         <section id="experiences">
-          <h3>Experiência</h3>
+          <h3>Experiência Profissional</h3>
           <div class="block">
-            <h4>Estagiário Gerência de Atendimento e Suporte em TI</h4>
+            <h4>Estagiário de Atendimento e Suporte em TI</h4>
             <h5>UniCEUB | 2019 - 2020</h5>
             <p>
               Auxiliar na abertura e fechamento de laboratórios de informática,
@@ -90,28 +111,36 @@
         <section id="formation">
           <h3>Formação</h3>
           <div class="block">
-            <h4>Bacharelado em Engenharia de Computação</h4>
+            <h4>Bacharelado em Engenharia da Computação</h4>
             <h5>
-              Centro Universitário de Brasília - UniCEUB 2017 - Previsão de
-              Conclusão 1º/2022
+              Centro Universitário de Brasília - UniCEUB <br />
+              Início em 2017 - Previsão de Conclusão 1º/2022
             </h5>
           </div>
         </section>
 
         <section id="certificates">
           <h3>Cursos e Certificados</h3>
-          <div class="block">
+          <a
+            class="block"
+            href="https://www.udemy.com/certificate/UC-015bfb22-d6d0-4169-82c2-e195dff60a99/"
+            target="blank"
+          >
             <h4>Desenvolvedor Web Fullstack</h4>
             <h5>Udemy</h5>
-          </div>
+          </a>
           <div class="block">
             <h4>Web moderno completo com Javascript 2021 + Projetos</h4>
             <h5>Udemy</h5>
           </div>
-          <div class="block">
+          <a
+            href="https://www.scrumstudy.com/certification/verify?type=SFC&number=850977"
+            target="blank"
+            class="block"
+          >
             <h4>Scrum Fundamentals Certified</h4>
             <h5>SCRUMSTUDY</h5>
-          </div>
+          </a>
         </section>
       </div>
     </div>
