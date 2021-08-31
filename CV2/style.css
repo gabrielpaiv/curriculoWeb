@@ -1,0 +1,71 @@
+* {
+  margin: 0;
+  padding: 0;
+  border: 0;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+body {
+  background: #123456;
+  display: flex;
+  justify-content: center;
+}
+
+.container {
+  padding-left: 0.5rem;
+}
+
+section {
+  padding-left: 1rem;
+}
+
+#page {
+  width: 49.625rem;
+  height: 70.1875rem;
+  background: #ffffff;
+  display: flex;
+}
+
+#name {
+  background: #00416a;
+  width: 12rem;
+  height: 10rem;
+  padding-top: 2rem;
+  line-height: 1.5625rem;
+  color: #f0f8ff;
+}
+
+#name .name {
+  font: 500 2.3rem /2.1rem 'Petrona', sans-serif;
+}
+
+#name .job {
+  padding-top: 0.4rem;
+  font: 500 1.3rem 'Poppins', sans-serif;
+}
+
+#contato {
+  background: red;
+  width: 20rem;
+}
+#about {
+  background: turquoise;
+  width: 20rem;
+}
+#skills {
+  background: blueviolet;
+  width: 20rem;
+}
+#experiences {
+  background: moccasin;
+}
+#formation {
+  background: gold;
+}
+#certificates {
+  background: gray;
+}
