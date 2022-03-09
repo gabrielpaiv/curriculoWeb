@@ -71,7 +71,8 @@ h3 {
 }
 
 #skills ul {
-  list-style: none;
+  list-style: disc;
+  list-style-position: inside;
   font: 400 1rem 'Poppins', sans-serif;
 }
 #experiences {
